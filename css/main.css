@@ -1,0 +1,33 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+.img_index {
+  width: 60vw; }
+
+@media only screen and (max-width: 768px) {
+  .img_index {
+    width: 80vw; } }
+
+.img_abt {
+  width: 25vw;
+  border-radius: 2%; }
+
+.btn_custom {
+  max-width: 15vw; }
+
+@media only screen and (max-width: 768px) {
+  .img_abt {
+    width: 65vw; } }
+
+nav a {
+  color: white !important;
+  font-weight: 600; }
+
+body {
+  background: #f9d6d6;
+  background: linear-gradient(180deg, #f9d6d6 27%, #94bbe9 100%) !important; }
+
+.navbar {
+  background-color: #c74071 !important; }

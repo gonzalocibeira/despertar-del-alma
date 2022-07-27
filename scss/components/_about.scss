@@ -1,0 +1,14 @@
+.img_abt{
+    width: 25vw;
+    border-radius: 2%;
+}
+
+.btn_custom{
+    max-width: 15vw;
+}
+
+@media  only screen and (max-width:768px){
+    .img_abt{
+        width:65vw;
+    }
+}
