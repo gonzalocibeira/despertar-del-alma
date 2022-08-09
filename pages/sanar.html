@@ -32,27 +32,62 @@
         </div>
       </nav>
       <main>
+        <h1 class="mt-1 mb-3 ms-2 ms-md-5 fs-1">Te acompaño a sanar</h1>
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 class="mt-5">Te acompaño a sanar</h1>
-          <div class="card d-flex justify-content-center align-items-center mx-5 my-5">
-            <img src="../images/agenda.jpg" alt="" style="width: 10rem;">
-            <div>
-              <h2 class="mt-4">Sesiones individuales</h2>
-              <p class="mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aperiam incidunt quibusdam atque minima, provident dolor corporis? Quo magnam neque repellat tempore mollitia numquam architecto veniam animi nihil blanditiis eius qui rem voluptatem, perspiciatis adipisci ullam quidem nobis repellendus in minima! Dolores maxime expedita reiciendis vero doloribus, cumque pariatur nobis non accusantium repellendus atque dolore tenetur quisquam molestias exercitationem. Eligendi eius quis similique dolor perferendis libero hic. Reiciendis eligendi itaque maiores ipsam eos error deserunt exercitationem consectetur temporibus, earum blanditiis voluptatem quisquam placeat velit! Nulla impedit sed atque accusamus placeat, molestias quam fuga nesciunt ut sint aliquam, sunt nemo harum?
-              </p>
-              <button class="btn btn-primary">Agendar sesion individual</button>
+          <!-- Card1 -->
+          <div class="card mb-3 sanarCard" >
+            <div class="d-flex justify-content-center imgBg">
+              <img src="../images/agenda.jpg" class="card-img-top cardImg" alt="Image of a woman writing on an agenda">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sesiones Individuales</h5>
+              <p class="card-text">Descripcion corta, yo diria máximo 2 o 3 renglones.<br>Algo para que la gente pueda leer de una pasada y ver si quiere saber más.</p>
+              <div class="accordion accordion-flush mb-3" id="accSesionInd">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Más información
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accSesionInd">
+                    <div class="accordion-body"><strong>Aca va una descripción más larga, del largo que se te cante.</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque alias quae omnis quibusdam modi. Dolore ab beatae optio molestias error numquam aliquam quasi mollitia dolores nisi nulla, illo quo necessitatibus.
+                    Dolores vitae facilis numquam eligendi explicabo molestiae et ipsum illo porro voluptatem, magni repudiandae sequi incidunt inventore laudantium sed! Maiores iusto qui, obcaecati unde aliquam repellat sit accusantium nihil ducimus!
+                    Mollitia, eum sequi ea nostrum ipsam culpa numquam dignissimos dolore praesentium vel adipisci suscipit nemo voluptatem reiciendis quibusdam ad dolorum maiores a omnis deserunt nam. Distinctio quod mollitia veritatis unde.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-primary">Agendar sesion individual</a>
+              </div>
             </div>
           </div>
-          <div class="card d-flex flex-row mx-5 my-5">
-            <img src="../images/agenda.jpg" alt="" style="width: 10rem;">
-            <div>
-              <h2 class="mt-4">Workshop grupales</h2>
-              <p class="mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aperiam incidunt quibusdam atque minima, provident dolor corporis? Quo magnam neque repellat tempore mollitia numquam architecto veniam animi nihil blanditiis eius qui rem voluptatem, perspiciatis adipisci ullam quidem nobis repellendus in minima! Dolores maxime expedita reiciendis vero doloribus, cumque pariatur nobis non accusantium repellendus atque dolore tenetur quisquam molestias exercitationem. Eligendi eius quis similique dolor perferendis libero hic. Reiciendis eligendi itaque maiores ipsam eos error deserunt exercitationem consectetur temporibus, earum blanditiis voluptatem quisquam placeat velit! Nulla impedit sed atque accusamus placeat, molestias quam fuga nesciunt ut sint aliquam, sunt nemo harum?
-              </p>
-              <button class="btn btn-primary">Agendar sesion individual</button>
+          <!-- Card2 -->
+          <div class="card mb-3 sanarCard" >
+            <div class="d-flex justify-content-center imgBg">
+              <img src="../images/grupo.jpg" class="card-img-top cardImg" alt="Image of a woman writing on an agenda">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sesiones Grupales</h5>
+              <p class="card-text">Descripcion corta, yo diria máximo 2 o 3 renglones.<br>Algo para que la gente pueda leer de una pasada y ver si quiere saber más.</p>
+              <div class="accordion accordion-flush mb-3" id="accSesionGrup">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Más información
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accSesionGrup">
+                    <div class="accordion-body"><strong>Aca va una descripción más larga, del largo que se te cante.</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque alias quae omnis quibusdam modi. Dolore ab beatae optio molestias error numquam aliquam quasi mollitia dolores nisi nulla, illo quo necessitatibus.
+                    Dolores vitae facilis numquam eligendi explicabo molestiae et ipsum illo porro voluptatem, magni repudiandae sequi incidunt inventore laudantium sed! Maiores iusto qui, obcaecati unde aliquam repellat sit accusantium nihil ducimus!
+                    Mollitia, eum sequi ea nostrum ipsam culpa numquam dignissimos dolore praesentium vel adipisci suscipit nemo voluptatem reiciendis quibusdam ad dolorum maiores a omnis deserunt nam. Distinctio quod mollitia veritatis unde.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-primary">Agendar sesion grupal</a>
+              </div>
             </div>
           </div>
-        </div>
         <!-- Carousel testimonios -->
         
       </main>

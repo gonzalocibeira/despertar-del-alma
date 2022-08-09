@@ -1,0 +1,22 @@
+.sanarCard{
+    width: 90vw
+}
+
+.cardImg{
+    width: 90vw;
+};
+
+.imgBg{
+    background-color: map-get($color-pallette, lgViolet);
+};
+
+@media only screen and (min-width: 768px) {
+    .sanarCard{
+        width: 50vw;
+    }
+    
+    .cardImg{
+        width: auto;
+        height: 40vh;
+    };
+}

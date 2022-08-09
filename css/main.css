@@ -27,7 +27,23 @@ nav a {
 
 body {
   background: #f9d6d6;
-  background: linear-gradient(180deg, #f9d6d6 27%, #94bbe9 100%) !important; }
+  background: linear-gradient(180deg, #f9d7d7 27%, #aee2da 100%) !important; }
 
 .navbar {
   background-color: #c74071 !important; }
+
+.sanarCard {
+  width: 90vw; }
+
+.cardImg {
+  width: 90vw; }
+
+.imgBg {
+  background-color: #dba3b0; }
+
+@media only screen and (min-width: 768px) {
+  .sanarCard {
+    width: 50vw; }
+  .cardImg {
+    width: auto;
+    height: 40vh; } }
