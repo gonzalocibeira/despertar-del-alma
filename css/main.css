@@ -35,7 +35,8 @@ body {
   background-color: #c74071 !important; }
 
 .sanarCard {
-  width: 90vw; }
+  width: 90vw;
+  box-shadow: rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 10px 10px, rgba(240, 46, 170, 0.1) 15px 15px, rgba(240, 46, 170, 0.05) 20px 20px, rgba(240, 46, 170, 0.025) 25px 25px; }
 
 .cardImg {
   width: 90vw; }
@@ -54,3 +55,12 @@ body {
     height: 40vh; }
   .cardQuote {
     width: 70vw; } }
+
+footer {
+  background-color: #f8f9fa; }
+
+.footer_text {
+  font-weight: 700; }
+
+.icon_footer {
+  width: 30px; }
