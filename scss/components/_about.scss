@@ -1,14 +1,15 @@
 .cardAbout{
     width: 95vw;
+    box-shadow: rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 10px 10px, rgba(240, 46, 170, 0.1) 15px 15px, rgba(240, 46, 170, 0.05) 20px 20px, rgba(240, 46, 170, 0.025) 25px 25px;
 };
 
 .imgAbout{
     width: 60vw;
 };
 
-.imgAboutBg{
+.columnImgAbout, .imgAboutBg{
     background-color: map-get($color-pallette ,lgViolet);
-};
+}
 
 @media only screen and (min-width: 768px){
     .cardAbout{

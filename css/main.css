@@ -3,20 +3,30 @@
   margin: 0;
   padding: 0; }
 
-.img_index {
-  width: 60vw; }
+.indexCard {
+  width: 90vw;
+  box-shadow: rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 10px 10px, rgba(240, 46, 170, 0.1) 15px 15px, rgba(240, 46, 170, 0.05) 20px 20px, rgba(240, 46, 170, 0.025) 25px 25px; }
 
-@media only screen and (max-width: 768px) {
+.imgIndexBg {
+  background-color: #dba3b0; }
+
+.img_index {
+  width: 90vw; }
+
+@media only screen and (min-width: 768px) {
+  .indexCard {
+    width: 85vw; }
   .img_index {
-    width: 80vw; } }
+    width: 50vw; } }
 
 .cardAbout {
-  width: 95vw; }
+  width: 95vw;
+  box-shadow: rgba(240, 46, 170, 0.3) 5px 5px, rgba(240, 46, 170, 0.2) 10px 10px, rgba(240, 46, 170, 0.1) 15px 15px, rgba(240, 46, 170, 0.05) 20px 20px, rgba(240, 46, 170, 0.025) 25px 25px; }
 
 .imgAbout {
   width: 60vw; }
 
-.imgAboutBg {
+.columnImgAbout, .imgAboutBg {
   background-color: #dba3b0; }
 
 @media only screen and (min-width: 768px) {
@@ -41,7 +51,7 @@ body {
 .cardImg {
   width: 90vw; }
 
-.imgBg {
+.imgSanarBg {
   background-color: #dba3b0; }
 
 .cardQuote {
